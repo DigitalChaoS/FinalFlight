@@ -40,7 +40,7 @@ public class LoanQualifier {
         }
         else
         {
-            JOptionPane.showMessageDialog(null, "You must earn " + "at least $30,000 per year to qualify.");
+            JOptionPane.showMessageDialog(null, "Unfortunately, The minimum requirement is 30,000.");
         }
         System.exit(0);
     }
