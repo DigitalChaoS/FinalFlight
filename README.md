@@ -1,4 +1,4 @@
 FinalFlight
 ===========
 
-My First Repository!
+This repository contains my personal projects!
