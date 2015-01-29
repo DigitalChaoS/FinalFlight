@@ -1,0 +1,29 @@
+/**
+ * This program will display the amount of people that are needed to carpool for today.
+ * Created by Christian Guerra 1/29/15.
+ */
+public class VariablesAndNames {
+
+    public static void main( String[] args)
+    {
+        int cars, drivers, passengers, cars_not_driven, cars_driven;  //the int data type is a 32-bit signed two's complement integer, which as a min value of -2 to the 31st and max value of 2 to the 31st -1
+        double space_in_a_car, carpool_capacity, average_passengers_per_car;  //the double data type is a double-precision 64-bit IEEE 754 floating point.  This data type is generally used by default for decimal values
+
+        cars = 100;  //we are assigning the variable cars from int to equal 100
+        space_in_a_car = 4.0; //here we are assigning the variable space_in_a_car to equal 4.0 (notice the decimal for the double data type)
+        drivers = 30;  //we are assigning the variable drivers from int to equal 30
+        passengers = 90; //we are assigning the variable passengers to equal 90
+        cars_not_driven = cars - drivers;  //the variable cars_not_driven is the value of variable cars minus drivers from the int data type
+        cars_driven = drivers;  //the variable cars_driven is equal to the variable drivers
+        carpool_capacity = cars_driven * space_in_a_car;  //the variable carpool_capacity from double data type is product of int variable cars_driven by double variable space_in_a_car
+        average_passengers_per_car = passengers / cars_driven;  //the double variable from average_passengers_per_car is the quotient of int variable passengers divided by int variable cars_driven
+
+        System.out.println( "There are " + cars + " cars available.");  //this line displays the amount of cars that are available
+        System.out.println( "There are only " + drivers + " drivers available.");  //this line displays the amount of drivers available
+        System.out.println( "There will be " + cars_not_driven + " empty cars today.");  //this line displays the difference cars_not_driven from variables cars minus drivers
+        System.out.println( "We can transport " + carpool_capacity + " people today.");  //this line displays the product carpool_capacity from int variable cars_driven by double variable
+        System.out.println( "We have " + passengers + " to carpool today.");  //this line displays int variable passengers
+        System.out.println( "We need to put about " + average_passengers_per_car + " in each car.");  //this line displays the double variable average_passengers_per_car that is the quotient of int variable passengers and cars_driven
+
+    }
+}
