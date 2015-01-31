@@ -1,0 +1,32 @@
+/**
+ *
+ * Created by Christian Guerra on 1/29/15.
+ */
+public class MoreVariablesAndPrinting {
+
+    public static void main (String[] args)
+    {
+        String myName, myEyes, myTeeth, myHair;  //String variables contain information describing myself
+        int myAge, myHeight, myWeight;  //int data type variables is holding my numerical information
+        double myKiloWeight;  //used to convert whole number into decimal(double data type) from pounds to kilograms for everyone else that lives outside USA baby haha
+
+        myName = "Christian Guerra";  //variable holds my name
+        myAge = 1987;  //Not really, but it works
+        myHeight = 71;  //inches
+        myWeight = 214;  //lbs
+        myKiloWeight = myWeight*.453;  //My weight converted in kilograms
+        myEyes = "Brown"; //Color of my eyes
+        myTeeth = "White";  //Color of my teeth, I try at least
+        myHair = "Light Brown"; //Color of my hair
+
+        System.out.println( "Let's talk about " + myName + ".");  //We are talking about me, because I am awesome yeah? Yeah.
+        System.out.println( "He's " + myHeight + " inches tall.");  //Describing my height in inches.
+        System.out.println( "He's " + myWeight + " pounds heavy.");  //Describing my weight.
+        System.out.println( myWeight + " pounds is also " + (Math.round(myKiloWeight) + " converted to kilograms."));  //This statement prints my weight in pounds and also displays it in KG rounded with the .round function.
+        System.out.println( "Actually, that's not too heavy.");  //Prints that I am really not too fat, sort of.  I am humble.
+        System.out.println( "He's got " + myEyes + " eyes and " + myHair + " hair.");  //Describing my own eyes and my hair.
+        System.out.println( "His teeth are usually " + myTeeth + " depending on the coffee.");  //I am being too considerate with myself here, they are a work in progress.  I abuse coffee way too much.
+
+        System.out.println( "If I add " + myAge + ", " + myHeight + ", and " + myWeight + " I get " + (myAge + myHeight + myWeight) + ".");  //This is a function that adds int variables
+    }
+}
