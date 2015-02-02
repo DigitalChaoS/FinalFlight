@@ -1,6 +1,6 @@
 /*
  * This program demonstrates a nested if statement
- * @author Christian Guerra 
+ * @author Christian Guerra  
  */
 
 import javax.swing.JOptionPane;  //needed for JOptionPane class
