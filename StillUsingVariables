@@ -1,0 +1,17 @@
+/**
+ * Created by Christian Guerra on 2/2/15.
+ */
+public class StillUsingVariables {
+
+    public static void main (String[] args)
+    {
+        String myName;  //I am using String data type assigned to variable myName
+        int myGraduation = 2017;  //I am using int data type to hold variable myGraduation that equals 2017
+
+        myName = "Christian Guerra";  //Variable myName holds the text value Christian Guerra to String
+
+        System.out.println( "My name is " + myName + " and I will graduate in " + myGraduation + ".");  //This line displays my name and when I will graduate, I hope I find a great job! :)
+
+
+    }
+}
