@@ -1,0 +1,19 @@
+/**
+ * Created by Christian Guerra on 2/2/15.
+ */
+public class UsingVariables {
+
+    public static void main (String[] args)
+    {
+        int myRoom = 113;  //I am setting int data type to variable myRoom to equal whole number 113
+        double eVal = 2.71828;  //I am setting double data type to variable eVal to equal decimal number 2.71828
+        String myMajor;  //I am setting String to value myMajor
+
+        myMajor = "Computer Science";  //String myMajor equals text "Computer Science"
+
+        System.out.println ( "This is room # " + myRoom);  //This line displays message plus variable myRoom
+        System.out.println ( "e is close to " + eVal);  //This line displays message plus variable eVal
+        System.out.println ( "I am learning a bit about " + myMajor);  //This line displays message plus String variable set myMajor
+
+    }
+}
