@@ -22,12 +22,12 @@ public class AskingQuestions {
         System.out.print(" How tall are you in feet? ");
         feet = keyboard.nextInt();
 
-        System.out.print(" And how many inches?");
+        System.out.print(" And how many inches? ");
         inches = keyboard.nextInt();
 
         System.out.print(" How much do you weight? ");
         weight = keyboard.nextDouble();
 
-        System.out.println(" So you're " + age + " old, " + feet + " tall and " + inches + " inches " + weight + " heavy. " );
+        System.out.println(" So you're " + age + " years old, " + feet + "'" + inches + "'' " + weight + " pounds heavy. " );
     }
 }
