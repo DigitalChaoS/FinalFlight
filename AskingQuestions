@@ -1,6 +1,6 @@
 /**
  * Created by Christian Guerra on 2/17/15.
- * This program asks the user their age, height, and weight. 
+ * This program asks the user their age, height, and weight.
  */
 
 import java.util.Scanner;
@@ -12,18 +12,22 @@ public class AskingQuestions {
         Scanner keyboard = new Scanner(System.in);
 
         int age;
-        String height;
+        int feet;
+        int inches;
         double weight;
 
         System.out.print(" How old are you? " );
         age = keyboard.nextInt();
 
-        System.out.print(" How tall are you? ");
-        height = keyboard.next();
+        System.out.print(" How tall are you in feet? ");
+        feet = keyboard.nextInt();
+
+        System.out.print(" And how many inches?");
+        inches = keyboard.nextInt();
 
         System.out.print(" How much do you weight? ");
         weight = keyboard.nextDouble();
 
-        System.out.println(" So you're " + age + " old, " + height + " tall and " + weight + " heavy. " );
+        System.out.println(" So you're " + age + " old, " + feet + " tall and " + inches + " inches " + weight + " heavy. " );
     }
 }
